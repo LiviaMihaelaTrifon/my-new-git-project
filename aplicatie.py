@@ -1,12 +1,11 @@
-# creaza un program de tip calculator, care sa retina retete de prajituri in format json,unde sa poti adauga retete noi, sa calculeze necesarul de materie prima si sa-mi rezulte un pdf ca si necesar.
 
-from abc import ABC
+import tkinter as tk
+from view.main_window import MainWindow
 
-class Retetar(ABC):
-    def __init__(self)->None:
-        self.retetar={}
+def run_app():
+    root = tk.Tk()
+    app = MainWindow(root)
+    root.mainloop()
 
-    def adauga_reteta_noua(self,ingredient:str,cantitate:int):
-        self.retetar[ingredient]=cantitate
-        
-        
+if __name__ == "__main__":
+    run_app()

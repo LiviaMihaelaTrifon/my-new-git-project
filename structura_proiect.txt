@@ -1,0 +1,19 @@
+patiserie_calculator/
+│
+├── model/               # Pentru interacțiunea cu baza de date și logica de calcul
+│   ├── recipe.py        # Clasa care definește rețetele
+│   ├── ingredient.py    # Clasa care definește ingredientele
+│   ├── database.py      # Clasa pentru interacțiunea cu MongoDB
+│
+├── view/                # Interface utilizator
+│   ├── main_window.py   # Fereastra principală
+│   ├── add_recipe.py    # Formular pentru adăugarea de rețete
+│
+├── controller/          # Logica de control
+│   ├── calculator.py    # Logica de calcul ingredientelor
+│   ├── recipe_manager.py # Gestionează rețetele
+│
+├── utils/               # Utilitare
+│   ├── pdf_generator.py # Pentru generarea PDF-urilor
+│
+└── aplicatie.py               # Punctul de intrare în aplicație
