@@ -22,7 +22,7 @@ class Database:
 
 # from pymongo.mongo_client import MongoClient
 # from pymongo.server_api import ServerApi
-# uri = "mongodb+srv://mariustrifon:Mariusikklivia94@cluster0.2nwkg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+# uri = f"mongodb+srv://mariustrifon:{parola}@cluster0.2nwkg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 # # Create a new client and connect to the server
 # client = MongoClient(uri, server_api=ServerApi('1'))
 # # Send a ping to confirm a successful connection
